@@ -6,8 +6,8 @@ import { EvandrefComponent } from './components/evandref/evandref.component';
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
-  {path:"",component: HomeComponent},
-  {path:"home",component: HomeComponent},
+  {path:"", component: HomeComponent},
+  {path:"home", component: HomeComponent},
   {path:"calculator",component: CaculatorComponent},
   {path:"evAndref",component: EvandrefComponent},
   {path:"clinica",component: ClinicaComponent}

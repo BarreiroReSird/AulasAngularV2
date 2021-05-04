@@ -1,0 +1,13 @@
+.activePage{
+  color: white;
+  background-color: black;
+  font-size: large;
+  font-weight: bold;
+
+  transition: all 1s;
+}
+
+a{
+  padding: 10px;
+  color: black;
+}
