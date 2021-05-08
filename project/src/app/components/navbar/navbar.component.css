@@ -2,11 +2,11 @@
   text-align: right;
   height: 2rem;
   font-size: 1.375rem;
-  background-color: gold;
+  background-color: white;
 }
 
 .activePage {
-  color: gold;
+  color: #48cae4;
   background-color: black;
   font-size: large;
   font-weight: bold;
@@ -17,4 +17,3 @@ a {
   padding: 10px;
   color: black;
 }
-

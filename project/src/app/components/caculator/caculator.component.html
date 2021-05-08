@@ -1,40 +1,42 @@
-<br>
-<div class="containerFC">
-<h1>Fast Calculator</h1>
-<br>
-<input placeholder='vX' [(ngModel)]="valorX" (input)='calcula()'>
-<input placeholder='sinal' [(ngModel)]="sinal" (input)='calcula()'>
-<input placeholder='vY' [(ngModel)]="valorY" (input)='calcula()'>
-<br>
-<br>
-<h2>Resultado: {{resultado}}</h2>
+<div class="containerMain">
+  <br>
+    <div class="containerFC">
+      <h1>Fast Calculator</h1>
+      <br>
+      <input placeholder='vX'     [(ngModel)]="valorX"  (input)='calcula()'>
+      <input placeholder='sinal'  [(ngModel)]="sinal"   (input)='calcula()'>
+      <input placeholder='vY'     [(ngModel)]="valorY"  (input)='calcula()'>
+      <br>
+      <br>
+      <h2>Resultado: {{resultado}}</h2>
+    </div>
+  <br>
+  <div class="containerTC">
+    <h1>Traditional calculator</h1>
+    <br>
+    <form name="calculator" class="calc">
+      <input placeholder="Solution" type="textfield" name="ans" value="" class="textresult">
+      <br>
+      <input type="reset" value="Reset" class="btn reset">
+      <input type="button" value="/" class="btn line1" onClick="document.calculator.ans.value+='/'">
+      <br>
+      <input type="button" value="7" class="btn line1" onClick="document.calculator.ans.value+='7'">
+      <input type="button" value="8" class="btn line1" onClick="document.calculator.ans.value+='8'">
+      <input type="button" value="9" class="btn line1" onClick="document.calculator.ans.value+='9'">
+      <input type="button" value="*" class="btn line1" onClick="document.calculator.ans.value+='*'">
+      <br>
+      <input type="button" value="4" class="btn line1" onClick="document.calculator.ans.value+='4'">
+      <input type="button" value="5" class="btn line1" onClick="document.calculator.ans.value+='5'">
+      <input type="button" value="6" class="btn line1" onClick="document.calculator.ans.value+='6'">
+      <input type="button" value="-" class="btn line1" onClick="document.calculator.ans.value+='-'">
+      <br>
+      <input type="button" value="1" class="btn line1" onClick="document.calculator.ans.value+='1'">
+      <input type="button" value="2" class="btn line1" onClick="document.calculator.ans.value+='2'">
+       <input type="button" value="3" class="btn line1" onClick="document.calculator.ans.value+='3'">
+      <input type="button" value="+" class="btn line1" onClick="document.calculator.ans.value+='+'">
+      <br>
+      <input type="button" value="0" class="btn lastline" onClick="document.calculator.ans.value+='0'">
+      <input type="button" value="=" class="btn lastline" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+    </form>
+  </div>
 </div>
-<br>
-<div class="containerTC">
-<h1 class="cTCh1">Traditional calculator</h1>
-<form name="calculator" >
-<input placeholder="Solution" type="textfield" name="ans" value="" class="textresult">
-<br>
-<input type="reset" value="Reset" class="btn reset">
-<input type="button" value="/" class="btn line1" onClick="document.calculator.ans.value+='/'">
-<br>
-<input type="button" value="7" class="btn line1" onClick="document.calculator.ans.value+='7'">
-<input type="button" value="8" class="btn line1" onClick="document.calculator.ans.value+='8'">
-<input type="button" value="9" class="btn line1" onClick="document.calculator.ans.value+='9'">
-<input type="button" value="*" class="btn line1" onClick="document.calculator.ans.value+='*'">
-<br>
-<input type="button" value="4" class="btn line1" onClick="document.calculator.ans.value+='4'">
-<input type="button" value="5" class="btn line1" onClick="document.calculator.ans.value+='5'">
-<input type="button" value="6" class="btn line1" onClick="document.calculator.ans.value+='6'">
-<input type="button" value="-" class="btn line1" onClick="document.calculator.ans.value+='-'">
-<br>
-<input type="button" value="1" class="btn line1" onClick="document.calculator.ans.value+='1'">
-<input type="button" value="2" class="btn line1" onClick="document.calculator.ans.value+='2'">
-<input type="button" value="3" class="btn line1" onClick="document.calculator.ans.value+='3'">
-<input type="button" value="+" class="btn line1" onClick="document.calculator.ans.value+='+'">
-<br>
-<input type="button" value="0" class="btn lastline" onClick="document.calculator.ans.value+='0'">
-<input type="button" value="=" class="btn lastline" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
-</form>
-</div>
-

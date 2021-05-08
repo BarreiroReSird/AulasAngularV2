@@ -9,13 +9,6 @@
   padding: 0;
 }
 
-/*
-html {
-  background-color: pink;
-  box-sizing: border-box;
-}
-*/
-
 main {
   align-items: center;
   display: flex;
@@ -25,13 +18,37 @@ main {
   padding: 0%;
 }
 
+.bg {
+  background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/rocky-coast-aero-view-view-from-above-sea-aero-view-coast-besthqwallpapers.com-1920x1080.jpg);
+  height: 67.5rem;
+  width: 120rem;
+}
+
 #type1 {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
+  /*padding: 2rem;*/
+
+  /*height: 67.5rem;*/
+  /*width: 120rem;*/
+  /*margin-top: 30rem;*/
+
+  /*color: white;*/
+  /*border: 0.1875rem solid white;*/
+  /*width: 50%;*/
+  /*padding: 0.625rem;*/
+  /*text-align: center;*/
+  /*margin-left: 25%;*/
+  /*background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/ocean-4k-aerial-view-tropics-paradise-besthqwallpapers.com-1920x1080.jpg);*/
+
+  /*background-color: black;*/
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 26.5rem;
   justify-content: center;
-  padding: 2rem;
-  /*width: 100vw;
-  margin: auto;*/
+  text-align: center;
 }
 
 .leta {
@@ -39,17 +56,14 @@ main {
   --box-blur: calc(0.5 * var(--blur));
   --glow: var(--color);
   --size: 12rem;
-
   align-items: center;
-  border-radius: 12px;
-  border: 4px solid currentColor;
+  border-radius: 0.75rem;
+  border: 0.25rem solid currentColor;
   box-shadow:
-    /* --- "glass" tube --- */
-    /* inside */ inset 0 0 0 2px rgba(0, 0, 0, 0.15),
-    /* outside */      0 0 0 2px rgba(0, 0, 0, 0.15),
-    /* --- glow --- */
-    /* inside */ inset 0 0 var(--box-blur) var(--glow),
-    /* outside */      0 0 var(--box-blur) var(--glow);
+  inset 0 0 0 0.125rem rgba(0, 0, 0, 0.15),
+  0 0 0 0.125rem rgba(0, 0, 0, 0.15),
+  inset 0 0 var(--box-blur) var(--glow),
+  0 0 var(--box-blur) var(--glow);
   color: var(--color, black);
   display: inline-flex;
   flex-direction: column;
@@ -81,17 +95,17 @@ main {
 
 
 .let1 {
-  --color: green;
+  --color: #48cae4;
   filter: saturate(150%);
   width: 15rem;
 }
 .let2 {
-  --color: gold;
+  --color: white;
   filter: saturate(175%);
   margin: 0 1.5125rem;
 }
 .let3 {
-  --color: red;
+  --color: #48cae4;
   filter: saturate(200%);
   width: 20rem;
 }

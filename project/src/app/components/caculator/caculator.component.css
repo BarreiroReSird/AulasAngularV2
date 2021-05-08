@@ -1,86 +1,66 @@
-/*
+.containerMain {
+  background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/sea-breeze-waves-summer-seascape-sea-besthqwallpapers.com-1920x1080.jpg);
+  height: 67.5rem;
+  width: 120rem;
+}
+
 * {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
 
-html {
-  background-color: #101010;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #101010;
-  box-sizing: border-box;
-}
-*/
-
 .containerFC {
-  margin: auto;
+  color: white;
+  border: 0.1875rem solid white;
   width: 50%;
-  border: 0.1875rem solid green;
   padding: 0.625rem;
-  height: auto;
-  width: 50rem;
-  background: lightgreen;
-  justify-content: center;
   text-align: center;
   margin-left: 25%;
+  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/ocean-4k-aerial-view-tropics-paradise-besthqwallpapers.com-1920x1080.jpg);
 }
 
 .containerTC {
-  margin: auto;
+  color: white;
+  border: 0.1875rem solid white;
   width: 50%;
-  border: 0.1875rem solid gold;
   padding: 0.625rem;
-  height: auto;
-  width: 50rem;
-  background: lightgoldenrodyellow;
-  justify-content: center;
   text-align: center;
   margin-left: 25%;
-
-  /*position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 2;
-  width: 39.625rem;
-  height: 30rem;
-  display: block;*/
+  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/ocean-4k-aerial-view-tropics-paradise-besthqwallpapers.com-1920x1080.jpg);
 }
 
-.cTCh1 {
-  height: auto;
-  width: auto;
-  background: gold;
-  justify-content: center;
-  text-align: center;
+.calc {
+  border: 0.1875rem solid white;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .btn {
   border: none;
-  background-color: gold;
-  height: 4rem;
+  background-color: black;
+  color: white;
+  height: 5.938rem;
   text-align: center;
   font-size: 1.5rem;
 }
 
 .textresult {
-  width: 24rem;
+  width: 29.8rem;
   height: 4rem;
   text-align: center;
   font-size: 2rem;
 }
 
 .reset {
-  width: 18rem;
+  width: 22.5rem;
 }
 
 .line1 {
-  width: 6rem;
+  width: 7.5rem;
 }
 
 .lastline {
-  width: 12rem;
+  width: 15rem;
 }
