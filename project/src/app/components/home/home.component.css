@@ -9,16 +9,18 @@
   padding: 0;
 }
 
+/*
 html {
-  background-color: #101010;
+  background-color: pink;
   box-sizing: border-box;
 }
+*/
 
 main {
   align-items: center;
   display: flex;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
   background-color: black;
   padding: 0%;
 }
@@ -73,17 +75,71 @@ main {
   text-shadow: 0 0 var(--blur) var(--glow);
 }
 
+.bott {
+  font-weight: 700;
+}
+
+
 .let1 {
-  --color: gold;
+  --color: green;
   filter: saturate(150%);
+  width: 15rem;
 }
 .let2 {
-  --color: teal;
+  --color: gold;
   filter: saturate(175%);
   margin: 0 1.5125rem;
 }
 .let3 {
-  --color: pink;
+  --color: red;
   filter: saturate(200%);
+  width: 20rem;
 }
 
+.a3b {
+  font-size: 4rem;
+  font-family: 'Neon Glow';
+  text-shadow: 0 0 var(--blur) var(--glow);
+  filter: saturate(175%);
+  width: 35rem;
+  height: 5rem;
+}
+
+.aftxt1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 25rem;
+  background-color: black;
+  padding: 0%;
+}
+
+.aftxt2 {
+  color: white;
+  font-size: 1.375rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.wip {
+  --color: green;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.aup {
+  --color: gold;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.mab {
+  --color: red;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50rem;
+}
