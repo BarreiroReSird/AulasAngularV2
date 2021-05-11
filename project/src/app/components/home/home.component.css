@@ -166,6 +166,35 @@ main::after {
   font-size: 1.375rem;
 }
 
+.it {
+  color: white;
+  font-weight: 800;
+  position: relative;
+  left: 25%;
+}
+
+.containerGen {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.containerIPics {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+}
+
 .picIL {
   background-color: black;
   background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
@@ -182,7 +211,6 @@ main::after {
   width: 20rem;
   border-radius: 10%;
   margin-bottom: 1%;
-
 }
 
 .picIR {
@@ -192,12 +220,4 @@ main::after {
   width: 20rem;
   border-radius: 10%;
   margin-bottom: 1%;
-}
-
-.containerInfo {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  justify-content: space-evenly;
-  width: 50%;
 }
