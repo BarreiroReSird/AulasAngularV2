@@ -1,34 +1,56 @@
-.containerMain {
-  background-color: black;
-  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/sea-breeze-waves-summer-seascape-sea-besthqwallpapers.com-1920x1080.jpg);
-  height: 67.5rem;
-  width: 120rem;
-}
-
 * {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
 
+.containerMain {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/sunset-seascape-rocks-coast-sea-besthqwallpapers.com-1920x1080.jpg);
+  padding: 0%;
+  z-index: 1;
+  position: relative;
+}
+
+.containerMain::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.500);
+}
+
 .containerFC {
-  color: white;
+  color: #48cae4;
+  font-size: 1.375rem;
   border: 0.1875rem solid white;
   width: 50%;
   padding: 0.625rem;
   text-align: center;
-  margin-left: 25%;
-  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/ocean-4k-aerial-view-tropics-paradise-besthqwallpapers.com-1920x1080.jpg);
+  z-index: 10;
+}
+
+input {
+  color: black;
+  font-weight: 700;
+  font-size: 1.375rem;
 }
 
 .containerTC {
-  color: white;
+  color: #48cae4;
+  font-size: 1.375rem;
   border: 0.1875rem solid white;
   width: 50%;
   padding: 0.625rem;
   text-align: center;
-  margin-left: 25%;
-  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/ocean-4k-aerial-view-tropics-paradise-besthqwallpapers.com-1920x1080.jpg);
+  z-index: 10;
 }
 
 .calc {
@@ -40,7 +62,7 @@
 .btn {
   border: none;
   background-color: black;
-  color: white;
+  color: #48cae4;
   height: 5.938rem;
   text-align: center;
   font-size: 1.5rem;
