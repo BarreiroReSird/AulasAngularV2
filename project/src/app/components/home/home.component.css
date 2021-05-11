@@ -163,14 +163,7 @@ main::after {
 .aftxt3 {
   color: white;
   font-weight: 800;
-  font-size: 1.375rem;
-}
-
-.it {
-  color: white;
-  font-weight: 800;
-  position: relative;
-  left: 25%;
+  font-size: 1.625rem;
 }
 
 .containerGen {
@@ -179,45 +172,52 @@ main::after {
   color: white;
   justify-content: space-evenly;
   width: 100%;
-}
-
-.containerIPics {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  justify-content: space-evenly;
+  /*border: 2px dashed purple;*/
 }
 
 .containerInfo {
-  display: flex;
-  flex-direction: row;
+  margin: 0 auto;
   color: white;
-  justify-content: space-evenly;
+  display: grid;
+	grid-template-rows: 15rem 15rem;
+	grid-template-columns: 20rem 20rem 20rem;
+  grid-gap: 1.563rem 6.25rem;
+  justify-items: center;
+  /*border: 2px dashed lime;*/
 }
 
-.picIL {
+.aftxt4 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 35rem;
   background-color: black;
-  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
+  padding: 0%;
+}
+
+.item {
+  background-color: black;
   height: 15rem;
   width: 20rem;
   border-radius: 10%;
   margin-bottom: 1%;
+  text-align: center;
 }
 
-.picIM {
-  background-color: black;
-  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
-  height: 15rem;
-  width: 20rem;
-  border-radius: 10%;
-  margin-bottom: 1%;
+.i1 {
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/visual-studio-glitter-logo-programming-language-grid-metal-background-visual-studio-creative-besthqwallpapers.com-320x240.jpg);
 }
 
-.picIR {
-  background-color: black;
-  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
-  height: 15rem;
-  width: 20rem;
-  border-radius: 10%;
-  margin-bottom: 1%;
+.i2 {
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/html5-glitter-logo-programming-language-grid-metal-background-html5-creative-besthqwallpapers.com-320x240.jpg);
 }
+
+.i3 {
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/javascript-glitter-logo-programming-language-grid-metal-background-javascript-creative-besthqwallpapers.com-320x240.jpg);
+}
+
+.aftxt5 {
+  color: white;
+  font-size: 1.625rem;
+}
+
