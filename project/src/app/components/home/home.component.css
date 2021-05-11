@@ -15,40 +15,27 @@ main {
   justify-content: center;
   height: 100vh;
   background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/rocky-coast-aero-view-view-from-above-sea-aero-view-coast-besthqwallpapers.com-1920x1080.jpg);
   padding: 0%;
+  z-index: 1;
+  position: relative;
 }
 
-.bg {
-  background-color: black;
-  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/rocky-coast-aero-view-view-from-above-sea-aero-view-coast-besthqwallpapers.com-1920x1080.jpg);
-  height: 67.5rem;
-  width: 120rem;
+main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.500);
 }
 
 #type1 {
-  /*display: flex;*/
-  /*flex-wrap: wrap;*/
-  /*justify-content: center;*/
-  /*padding: 2rem;*/
-
-  /*height: 67.5rem;*/
-  /*width: 120rem;*/
-  /*margin-top: 30rem;*/
-
-  /*color: white;*/
-  /*border: 0.1875rem solid white;*/
-  /*width: 50%;*/
-  /*padding: 0.625rem;*/
-  /*text-align: center;*/
-  /*margin-left: 25%;*/
-  /*background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/ocean-4k-aerial-view-tropics-paradise-besthqwallpapers.com-1920x1080.jpg);*/
-
-  /*background-color: black;*/
   width: 50%;
-  margin-left: 25%;
-  margin-top: 26.5rem;
   justify-content: center;
   text-align: center;
+  z-index: 3;
 }
 
 .leta {
@@ -140,20 +127,77 @@ main {
 }
 
 .wip {
-  --color: green;
+  --color: #48cae4;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .aup {
-  --color: gold;
+  --color: white;
   margin-left: 15%;
   margin-right: 15%;
 }
 
 .mab {
-  --color: red;
+  --color: #48cae4;
   margin-left: 25%;
   margin-right: 25%;
   width: 50rem;
+}
+
+.containerCV {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.cvpic {
+  background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
+  height: 15rem;
+  width: 20rem;
+  border-radius: 10%;
+  margin-bottom: 1%;
+}
+
+.aftxt3 {
+  color: white;
+  font-weight: 800;
+  font-size: 1.375rem;
+}
+
+.picIL {
+  background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
+  height: 15rem;
+  width: 20rem;
+  border-radius: 10%;
+  margin-bottom: 1%;
+}
+
+.picIM {
+  background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
+  height: 15rem;
+  width: 20rem;
+  border-radius: 10%;
+  margin-bottom: 1%;
+
+}
+
+.picIR {
+  background-color: black;
+  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
+  height: 15rem;
+  width: 20rem;
+  border-radius: 10%;
+  margin-bottom: 1%;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+  width: 50%;
 }

@@ -3,6 +3,7 @@
   height: 2rem;
   font-size: 1.375rem;
   background-color: white;
+  z-index: 5;
 }
 
 .activePage {
