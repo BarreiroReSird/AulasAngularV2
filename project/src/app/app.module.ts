@@ -9,6 +9,13 @@ import { CaculatorComponent } from './components/caculator/caculator.component';
 import { FormsModule } from '@angular/forms';
 import { EvandrefComponent } from './components/evandref/evandref.component';
 import { ClinicaComponent } from './components/clinica/clinica.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { AddComponent } from './components/ListaDeCompras/add/add.component';
+import { BuyComponent } from './components/ListaDeCompras/buy/buy.component';
+import { from } from 'rxjs';
+import { ListaDeComprasComponent } from './components/lista-de-compras/lista-de-compras.component';
+import { PcolorComponent } from './components/pcolor/pcolor.component';
+import { FcolorComponent } from './components/pcolor/fcolor/fcolor.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +24,13 @@ import { ClinicaComponent } from './components/clinica/clinica.component';
     NavbarComponent,
     CaculatorComponent,
     EvandrefComponent,
-    ClinicaComponent
+    ClinicaComponent,
+    NotFoundComponent,
+    AddComponent,
+    BuyComponent,
+    ListaDeComprasComponent,
+    PcolorComponent,
+    FcolorComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+.activePage {
+  color: #48cae4;
+  background-color: black;
+  font-size: large;
+  font-weight: bold;
+  transition: all 1s;
+  height: 2rem;
+  font-size: 1.375rem;
+}
+
+nav {
+  background-color: white;
+  text-align: right;
+  height: 2rem;
+  font-size: 1.375rem;
+  z-index: 5;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
