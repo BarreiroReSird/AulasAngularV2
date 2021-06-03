@@ -16,6 +16,7 @@ import { from } from 'rxjs';
 import { ListaDeComprasComponent } from './components/lista-de-compras/lista-de-compras.component';
 import { PcolorComponent } from './components/pcolor/pcolor.component';
 import { FcolorComponent } from './components/pcolor/fcolor/fcolor.component';
+import { CookiesComponent } from './components/cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FcolorComponent } from './components/pcolor/fcolor/fcolor.component';
     BuyComponent,
     ListaDeComprasComponent,
     PcolorComponent,
-    FcolorComponent
+    FcolorComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule,
