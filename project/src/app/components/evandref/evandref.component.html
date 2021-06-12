@@ -1,2 +1,55 @@
-<!--<p>evandref works!</p>-->
-<input [style.background]='background' (mouseenter)="changeColor()" (mouseleave)="changeColor()">
+<div class="general">
+  <!--
+    <p>evandref works!</p>
+    <h1> Parte 1: </h1>
+    <br>
+    <input [style.background]='background' (mouseenter)="changeColor()" (mouseleave)="changeColor()">
+    <br>
+  -->
+
+  <div class="box box1">
+    <h1>Eventos e referências</h1>
+    <br>
+    <input class="inp" type="text" [style.background]="cor" (mouseenter)='changecolor("green")' (focus)='changecolor("pink")' (blur)='changecolor("grey")' (input)='changecolor("blue")' (copy)='changecolor("teal")' #refA>
+
+    <!--
+      (mouseenter) : passar por cima
+      (focus) : selecionar
+      (blur) : des selecionar
+      (input) : ao escrever
+      (copy) : ao fazer ctrl + c
+    -->
+
+    <button class="btn" (click)='esconder(refA)'> Esconder </button>
+    <button class="btn" (click)='altura(refA)'> Aumentar a altura </button>
+    <button class="btn" (click)='largura(refA)'> Aumentar a largura </button>
+  </div>
+  <div class="box box2">
+    <button class="btn" (click)='showHide(mtsh)'>Drivers 2021</button>
+    <button class="btn" (click)='showHide(mtsh1)'>Hall of Fame</button>
+    <br>
+    <!-- class="hidden" -->
+    <div class="hidden" #mtsh>
+      <button
+        *ngFor="let team of teams"
+        class="btn"
+        (click)='chooseTeam(team.name)'>
+        {{ team.name }}
+      </button>
+    </div>
+    <div class="hidden" #mtsh1>
+      <button class="btn">fffffffff </button>
+      <button class="btn">GP1800R HO </button>
+      <button class="btn">SuperJet </button>
+    </div>
+    <div *ngIf="chosenTeam" class="containerGen hidden">
+      <div class="containerInfo ext1 st">
+        <div class="item containerI"><img src="{{ chosenTeam.drivers[0].image }}" alt=""></div>
+        <div class="item containerI"> <img src="{{ chosenTeam.image }}" alt="">  </div>
+        <div class="item containerI"><img src="{{ chosenTeam.drivers[1].image }}" alt=""></div>
+        <div class="item ext2">{{ chosenTeam.drivers[0].name }}</div>
+        <div class="item ext2">{{ chosenTeam.name }}</div>
+        <div class="item ext2">{{ chosenTeam.drivers[1].name }}</div>
+      </div>
+    </div>
+</div>

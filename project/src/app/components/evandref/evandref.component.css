@@ -1,0 +1,111 @@
+.general {
+  background-image: url(https://motorsport-magazine.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/02/28180701/DtS-grid.jpg);
+}
+
+.box {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border: 2px dashed red;
+}
+
+.box1 {
+  margin-bottom: 1vh;
+  /*height: 10rem;*/
+  height: 17vh;
+  border: 2px dashed blue;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  color: #48cae4;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.375rem;
+}
+
+.inp {
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.375rem;
+}
+
+.box2 {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  height: 75vh;
+  border: 2px dashed orange;
+}
+
+.hidden {
+  /*opacity: 0;*/
+  display: none;
+  /*transition: all 350ms ease-in-out;*/
+}
+
+/* PARTE DA IMAGEM */
+
+.containerGen {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-evenly;
+  width: 100%;
+  border: 2px dashed purple;
+}
+
+.containerInfo {
+  margin: 0 auto;
+  color: white;
+  display: grid;
+	grid-template-rows: 12.875rem 5rem;
+	grid-template-columns: 12.875rem 50rem 12.875rem;
+  grid-gap: 1.563rem 6.25rem;
+  justify-items: center;
+  border: 2px dashed lime;
+}
+
+.ext1 {
+  color: white;
+  font-weight: 800;
+  font-size: 1.625rem;
+}
+
+.item {
+  background-color: transparent;
+  height: 12.875rem;
+  width: 12.875rem;
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.containerI {
+  height: 12.875rem;
+  width: 12.875rem;
+}
+
+.containerI:nth-of-type(2) {
+  width: 41rem;
+}
+
+.containerI img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+.ext2 {
+  color: white;
+  font-size: 1.625rem;
+  height: 5rem;
+}
