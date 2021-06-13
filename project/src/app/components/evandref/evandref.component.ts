@@ -11,6 +11,15 @@ interface Driver {
   image: string;
 }
 
+interface HallOfFame {
+  name: string;
+  image1: string;
+  image2: string;
+  image3: string;
+  trophies: string;
+  activeYears: string;
+}
+
 @Component({
   selector: 'app-evandref',
   templateUrl: './evandref.component.html',
@@ -26,6 +35,9 @@ export class EvandrefComponent implements OnInit {
 
   tam: number = 15;
   tam2: number = 100;
+
+  champions: HallOfFame[];
+  chosenChampion: HallOfFame | undefined;
 
   constructor() {
     this.teams = [
@@ -171,6 +183,48 @@ export class EvandrefComponent implements OnInit {
         ]
       },
     ];
+    this.champions = [
+      {
+        name: 'Michael Schumacher',
+        image1: 'https://pbs.twimg.com/media/E3xQGnQXoAEB6WD?format=jpg&name=large',
+        image2: 'https://pbs.twimg.com/media/E3xQ38xX0Ao4Zzu?format=jpg&name=large',
+        image3: 'https://pbs.twimg.com/media/E3xSPoDXIAY-9hw?format=jpg&name=large',
+        trophies: '7 trophies: 1994, 1995, 2000, 2001, 2002, 2003, 2004',
+        activeYears: '19 Active years:	1991 - 2006 and 2010 - 2012',
+      },
+      {
+        name: 'Lewis Hamilton',
+        image1: 'https://pbs.twimg.com/media/E3xUUwHWYAUEWzi?format=jpg&name=large',
+        image2: 'https://pbs.twimg.com/media/E3xUS9qWYAM7u29?format=jpg&name=large',
+        image3: 'https://pbs.twimg.com/media/E3xUXjEWUAA9Sa0?format=jpg&name=large',
+        trophies: '7 trophies: 2008, 2014, 2015, 2017, 2018, 2019, 2020',
+        activeYears: '(At least) 15 Active years: 2007 - today (2021)',
+      },
+      {
+        name: 'Juan Manuel Fangio',
+        image1: 'https://pbs.twimg.com/media/E3xbzt_WEAE3heY?format=jpg&name=900x900',
+        image2: 'https://pbs.twimg.com/media/E3xbvGQWYAcbi6b?format=jpg&name=large',
+        image3: 'https://pbs.twimg.com/media/E3xbxrXWEAA8h7l?format=jpg&name=900x900',
+        trophies: '5 trophies: 1951, 1954, 1955, 1956, 1957',
+        activeYears: '8 Active years: 1950 - 1951 and 1953 - 1958',
+      },
+      {
+        name: 'Alain Prost',
+        image1: 'https://pbs.twimg.com/media/E3xajoQXEAc7KWX?format=jpg&name=small',
+        image2: 'https://pbs.twimg.com/media/E3xal2yXoAQPjAO?format=jpg&name=small',
+        image3: 'https://pbs.twimg.com/media/E3xaoaOWUAUSZsc?format=jpg&name=900x900',
+        trophies: '4 trophies: 1985, 1986, 1989, 1993',
+        activeYears: '13 Active years: 1980 - 1991 and 1993',
+      },
+      {
+        name: 'Sebastian Vettel',
+        image1: 'https://pbs.twimg.com/media/E3xcVLzWUAEysir?format=jpg&name=large',
+        image2: 'https://pbs.twimg.com/media/E3xcW3xWUAA8xxH?format=jpg&name=large',
+        image3: 'https://pbs.twimg.com/media/E3xcTRhXwAImVTg?format=jpg&name=large',
+        trophies: '4 trophies: 2010, 2011, 2012, 2013',
+        activeYears: '(At least) 15 Active years: 2007 - today (2021)',
+      },
+    ];
   }
 
   ngOnInit(): void {
@@ -219,5 +273,13 @@ export class EvandrefComponent implements OnInit {
       return;
     }
     this.chosenTeam = this.teams.find((t) => t.name === teamName);
+  }
+
+  chooseChampion(championName: string) {
+    if (this.chosenChampion && championName === this.chosenChampion.name) {
+      this.chosenChampion = undefined;
+      return;
+    }
+    this.chosenChampion = this.champions.find((c) => c.name === championName);
   }
 }

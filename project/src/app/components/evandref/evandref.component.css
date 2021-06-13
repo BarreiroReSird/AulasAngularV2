@@ -1,5 +1,6 @@
 .general {
   background-image: url(https://motorsport-magazine.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/02/28180701/DtS-grid.jpg);
+  min-height: auto;
 }
 
 .box {
@@ -8,14 +9,14 @@
   background-color: transparent;
   color: white;
   text-align: center;
-  border: 2px dashed red;
+  /*border: 2px dashed red;*/
 }
 
 .box1 {
   margin-bottom: 1vh;
   /*height: 10rem;*/
-  height: 17vh;
-  border: 2px dashed blue;
+  min-height: 17vh;
+  /*border: 2px dashed blue;*/
 }
 
 .btn {
@@ -41,8 +42,8 @@
 .box2 {
   margin-top: 1vh;
   margin-bottom: 1vh;
-  height: 75vh;
-  border: 2px dashed orange;
+  min-height: 75vh;
+  /*border: 2px dashed orange;*/
 }
 
 .hidden {
@@ -59,7 +60,7 @@
   color: white;
   justify-content: space-evenly;
   width: 100%;
-  border: 2px dashed purple;
+  /*border: 2px dashed purple;*/
 }
 
 .containerInfo {
@@ -70,7 +71,7 @@
 	grid-template-columns: 12.875rem 50rem 12.875rem;
   grid-gap: 1.563rem 6.25rem;
   justify-items: center;
-  border: 2px dashed lime;
+  /*border: 2px dashed lime;*/
 }
 
 .ext1 {
@@ -81,12 +82,13 @@
 
 .item {
   background-color: transparent;
-  height: 12.875rem;
+  min-height: 12.875rem;
   width: 12.875rem;
   border-radius: 10%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-top: 1vh;
 }
 
 .containerI {
@@ -107,5 +109,5 @@
 .ext2 {
   color: white;
   font-size: 1.625rem;
-  height: 5rem;
+  height: 12.875rem;
 }
