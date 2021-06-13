@@ -17,6 +17,7 @@ import { ListaDeComprasComponent } from './components/lista-de-compras/lista-de-
 import { PcolorComponent } from './components/pcolor/pcolor.component';
 import { FcolorComponent } from './components/pcolor/fcolor/fcolor.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
+import { ChuckComponent } from './components/chuck/chuck.component';
 
 @NgModule({
   declarations: [

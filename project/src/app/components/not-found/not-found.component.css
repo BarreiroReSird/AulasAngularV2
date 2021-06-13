@@ -4,8 +4,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  background-color: black;
+  color: #48cae4;
+  text-align: center;
+}
+
 .bgi {
-  height: 25rem;
-  width: 50rem;
-  background-image: url(https://besthqwallpapers.com/Uploads/31-1-2020/120448/404-page-not-found-blue-logo-4k-blue-brickwall-404-page-not-found-logo-brands.jpg);
+  height: 78vh;
+  width: 100vw;
+  background-image: url(https://static.displate.com/392x280/displate/2021-05-21/87bcbe5c8f7196edc345ecfd7ba38f41_8f6d03ec4cf5e7a8e05792e023ddbd34.jpg);
 }

@@ -1,0 +1,12 @@
+<br>
+<h1>Chuck Component:</h1>
+<br>
+<!-- <h1>{{joke}}</h1> -->
+<h1>{{result.value}}</h1>
+<button (click)="getJoke()">Get</button> <br>
+<button (click)="getMoreJokes(value.value)">Get by word</button>
+<input type="text" #value>
+<div *ngFor="let item of jokes2.result">
+  <h1>{{item.value}}</h1>
+</div>
+
