@@ -1,6 +1,11 @@
 .general {
-  background-image: url(https://motorsport-magazine.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/02/28180701/DtS-grid.jpg);
   min-height: auto;
+}
+
+.bg {
+  background-image: url(https://motorsport-magazine.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/02/28180701/DtS-grid.jpg);
+  /*filter: brightness(30%)*/
+  /*opacity: 0.1;*/
 }
 
 .box {

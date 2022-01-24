@@ -1,0 +1,25 @@
+.all {
+  text-align: center;
+  background-color: black;
+  height: 91.6vh;
+  color: #48cae4;
+}
+
+.title {
+  /*margin-top: 5vh;*/
+}
+
+.subtitle {
+  /*margin-bottom: 5vh;*/
+}
+
+.btntxt {
+  border: none;
+  background-color: white;
+  color: #48cae4;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.375rem;
+}

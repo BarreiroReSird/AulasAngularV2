@@ -1,12 +1,13 @@
-<br>
-<h1>Chuck Component:</h1>
-<br>
-<!-- <h1>{{joke}}</h1> -->
-<h1>{{result.value}}</h1>
-<button (click)="getJoke()">Get</button> <br>
-<button (click)="getMoreJokes(value.value)">Get by word</button>
-<input type="text" #value>
-<div *ngFor="let item of jokes2.result">
+<div class="all">
+  <br>
+  <h1 class="title">Chuck Norris jokes</h1>
+  <h2 class="subtitle">Although they are funny, they are 100% true</h2>
+  <button class="btntxt" (click)="getJoke()">Random joke</button>
+  <!-- <h1>{{joke}}</h1> -->
+  <h1>{{result.value}}</h1>
+  <button class="btntxt" (click)="getMoreJokes(value.value)">All jokes with: (word)</button>
+  <input class="btntxt" type="text" #value>
+  <div *ngFor="let item of jokes2.result">
   <h1>{{item.value}}</h1>
 </div>
 

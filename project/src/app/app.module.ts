@@ -18,6 +18,7 @@ import { PcolorComponent } from './components/pcolor/pcolor.component';
 import { FcolorComponent } from './components/pcolor/fcolor/fcolor.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
 import { ChuckComponent } from './components/chuck/chuck.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ChuckComponent } from './components/chuck/chuck.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
