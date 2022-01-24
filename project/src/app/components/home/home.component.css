@@ -15,8 +15,8 @@ main {
   justify-content: center;
   height: 100vh;
   background-color: black;
-  background-image: url(https://besthqwallpapers.com/Temp/8-5-2021/rocky-coast-aero-view-view-from-above-sea-aero-view-coast-besthqwallpapers.com-1920x1080.jpg);
-  padding: 0%;
+  background-image: url(https://besthqwallpapers.com/Uploads/12-11-2021/182391/langkawi-sea-aerial-view-azure-water-coast-aerial-view.jpg);
+  background-image: url(https://besthqwallpapers.com/Uploads/21-11-2021/184584/aerial-view-4k-sea-waves-stones.jpg);
   z-index: 1;
   position: relative;
 }
@@ -153,11 +153,11 @@ main::after {
 
 .cvpic {
   background-color: black;
-  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/fernando-alonso-2021-4k-alpine-f1-team-spanish-racing-drivers-besthqwallpapers.com-320x240.jpg);
-  height: 15rem;
-  width: 20rem;
+  background-image: url(https://avatars.githubusercontent.com/u/75850103?v=4);
+  height: 30rem;
+  width: 30rem;
   border-radius: 10%;
-  margin-bottom: 1%;
+  margin-bottom: auto;
 }
 
 .aftxt3 {
@@ -205,15 +205,15 @@ main::after {
 }
 
 .i1 {
-  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/visual-studio-glitter-logo-programming-language-grid-metal-background-visual-studio-creative-besthqwallpapers.com-320x240.jpg);
+  background-image: url(https://besthqwallpapers.com/Temp/24-1-2022/html5-black-logo-programming-language-grid-metal-background-html5-artwork-besthqwallpapers.com-320x240.jpg);
 }
 
 .i2 {
-  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/html5-glitter-logo-programming-language-grid-metal-background-html5-creative-besthqwallpapers.com-320x240.jpg);
+  background-image: url(https://besthqwallpapers.com/Temp/24-1-2022/visual-studio-black-logo-programming-language-grid-metal-background-visual-studio-artwork-besthqwallpapers.com-320x240.jpg);
 }
 
 .i3 {
-  background-image: url(https://besthqwallpapers.com/Temp/11-5-2021/javascript-glitter-logo-programming-language-grid-metal-background-javascript-creative-besthqwallpapers.com-320x240.jpg);
+  background-image: url(https://besthqwallpapers.com/Temp/24-1-2022/javascript-black-logo-programming-language-grid-metal-background-javascript-artwork-besthqwallpapers.com-320x240.jpg);
 }
 
 .aftxt5 {
